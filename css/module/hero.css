@@ -1,0 +1,24 @@
+.hero{
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  -webkit-jutify-content: center;
+  align-items: center;
+  -webkit-align-items: center;
+  height: 520px;
+  background: url("../../images/image-leaves.png") center center;
+  background-size: cover;
+}
+
+.hero-copy{
+  margin: 0;
+  font-size: 50px;
+  text-align: left;
+  color: #fff;
+}
+
+.name-description{
+  background-color: #50703D;
+  border-radius: 7px;
+  border: 1px solid #fff;
+}

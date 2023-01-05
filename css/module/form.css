@@ -1,0 +1,42 @@
+.form-simple{
+  width: 100%;
+  text-align: left;
+}
+
+.form-label{
+  font-size: 1.125rem;
+  font-weight: bold;
+  text-align: left;
+}
+
+.form-input + .form-label{
+  margin-top: 1.3rem;
+}
+
+.form-input{
+  margin-top: .4rem;
+}
+
+.form-simple input, .form-simple textarea{
+  width: 100%;
+  resize: none;
+  padding: 1em;
+  border: 2px solid #333;
+  font-family: "Montserrat", sans-serif;
+}
+
+.form-simple input[type="submit"], .form-simple button[type="submit"]{
+  margin-top: 3em;
+}
+
+.form-input::placeholder{
+  color: #999;
+}
+
+.form-btn-holder{
+  text-align: center;
+}
+
+.form-btn-holder .btn{
+  background-color: #fff;
+}

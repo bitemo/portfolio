@@ -1,0 +1,107 @@
+.section{
+  padding: 60px 0;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.section-header{
+  margin: 0 0 2.5em 0;
+  line-height: 1.2;
+}
+
+.section-title{
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 50px;
+  font-weight: bold; 
+}
+
+.section-subtitle{
+  margin: 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.section-selfie{
+  width: 400px;
+  height: 300px;
+  border-radius: 10%;
+  border: 4px solid #50703D;
+}
+
+.introduction::before{
+  display: block;
+  font-family: "Font Awesome 6 Free";
+  content: "\e542";
+  font-size: 90px;
+  font-weight: 900;
+  color: #2C3A21;
+  margin: 0;
+}
+
+.school::before{
+  display: block;
+  font-family: "Font Awesome 6 Free";
+  content: "\f19d";
+  font-size: 90px;
+  font-weight: 900;
+  color: #2C3A21;
+  margin: 0;
+}
+
+.section-abilities{
+  justify-content: center;
+  -webkit-jutify-content: center;
+  align-items: center;
+  -webkit-align-items: center;
+  height: 650px;
+  background: url(../../images/image-background.png) no-repeat center center;
+  background-size: cover;
+  color: white;
+}
+
+.section-item-description{
+  margin: 0;
+  font-size: 1em;
+  text-align: left;
+}
+
+.section .btn{
+  padding: .75rem 1rem
+  font-size: 1em;
+}
+
+.section-item-img{
+  width: 100%;
+  border: 2px solid #50703D;
+  border-radius: 8px;
+}
+
+.section-item-info-title > time{
+  margin-right: 1em;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #50703D;
+}
+
+.section-item-info-title{
+  margin: 0;
+  font-size: .875rem;
+  color: #50703D;
+  font-family: "Montserrat", sans-serif;
+  text-align: left;
+}
+
+.section-item-info{
+  margin: 0.2em 0;
+  font-size: 1.1em;
+  font-weight: bold;
+  text-align: left;
+  line-height: 1.4;
+  color: #2C3A21;
+}
+
+.section-form{
+  width: 60%;
+  margin: 2em auto;
+}
